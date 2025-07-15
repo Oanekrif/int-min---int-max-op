@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <limits.h>
 
 int main(){
@@ -14,5 +13,4 @@ int main(){
     printf("7- %d\n",-INT_MIN-1);       // INT_MAX
     printf("8- %d\n",INT_MIN-1);        // INT_MAX
     printf("-----\n");
-    
 }
